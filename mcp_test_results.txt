@@ -1,0 +1,46 @@
+==============================
+TEST 1: Generate MCQs for Python Loops
+==============================
+
+POST http://127.0.0.1:8000/generate-mcqs
+
+Request JSON:
+{
+  "topic": "Python Loops",
+  "count": 3
+}
+
+Response:
+{
+  "topic": "Python Loops",
+  "questions": [
+    {
+      "question": "What is Python Loops concept #1?",
+      "options": ["Python Loops Option A", "Option B", "Option C", "Option D"],
+      "answer": "Python Loops Option A"
+    },
+    ...
+  ]
+}
+
+==============================
+TEST 2: Lesson Plan for Algebra
+==============================
+
+POST http://127.0.0.1:8000/lesson-plan
+
+Request JSON:
+{
+  "subject": "algebra"
+}
+
+Response:
+{
+  "subject": "algebra",
+  "plan": [
+    "Intro to algebra",
+    "Core concepts of algebra",
+    "Activities related to algebra",
+    "Assessment on algebra"
+  ]
+}

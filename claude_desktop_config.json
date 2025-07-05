@@ -1,0 +1,22 @@
+{
+  "server_url": "http://127.0.0.1:8000",
+  "tools": {
+    "generate-mcqs": {
+      "endpoint": "/generate-mcqs",
+      "method": "POST",
+      "description": "Generate MCQs for a given topic and count",
+      "input_schema": {
+        "topic": "string",
+        "count": "integer"
+      }
+    },
+    "lesson-plan": {
+      "endpoint": "/lesson-plan",
+      "method": "POST",
+      "description": "Get a lesson plan for a subject",
+      "input_schema": {
+        "subject": "string"
+      }
+    }
+  }
+}
