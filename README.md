@@ -46,3 +46,9 @@ Edit
 uvicorn mcp_server:app --reload
 Open Swagger UI for testing:
 http://127.0.0.1:8000/docs
+
+
+
+## Author
+Vaishnavi Pashikanti
+pashikantivaishnavi2005@gmail.com
